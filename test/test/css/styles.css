@@ -1,0 +1,147 @@
+body {
+	padding: o;
+	margin: 0;
+	font-family: arial, sans-serif;
+}
+.clearfix:after {
+	clear: both;
+	display: table;
+	content: ' ';
+	width: 100%;
+}
+div {
+	box-sizing: border-box;
+}
+header{
+	background: url(../img/logo-background.jpg) no-repeat center top / cover;
+	padding-bottom: 160px;
+}
+.logo {
+	margin-top: 48px;
+	float: left;
+}
+.container {
+	width: 930px;
+	border: 10px;
+	margin: 0 auto;
+}
+nav {
+	float: right;
+	margin-top: 40px;
+}
+.menu {
+	padding: 0;
+	margin: 0
+	display: block;
+}
+.menu li{
+	float: left;
+	margin-right: 41px;
+	list-style-type: none;
+}
+.menu li a {
+	color: white;
+	text-decoration:  none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.titles_first{
+	font-size: 40px;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 189px;
+}
+h1 {
+	font-size: 75px;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+}
+.button {
+	background: yellow;
+	color: brown;
+	border-radius: 3px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: auto;
+	margin-bottom: 160px;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 30px;
+}
+.title {
+margin-top: 115px;
+}
+.title h2 {
+font-size: 40px bold;
+text-transform: uppercase;
+text-align: center;
+margin: 0;
+}
+.title p {
+	color: #777777;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 5px;
+}
+.service_item{
+	width: 270px;
+	float: left;
+	text-align: center;
+
+}
+.service_item p{
+	font-size: 16px;
+	color: #777777;
+	line-height: 4,55em;
+}
+.service_item:last-child{
+	float: right;
+}
+.service_item:nth-child(2){
+	margin-left: 60px;
+}
+.services{
+	margin-top: 50px;
+}
+#portfolio{
+	background: #f7f7f7;
+}
+.works {
+	margin-top: 70px;
+}
+.works img{
+	float: left;
+
+}
+.works img:last-child{
+	float: right;
+}
+.works img:nth-child(2){
+	margin-left: 33px; 
+}
+.works2 img:last-child{
+	float: right;
+	margin-left: 15px;
+}
+.works2 img:nth-child(2){
+	margin-left: 30px;
+}
+.works2 {
+	margin-top: 52px;
+}
+.text{
+	margin: 40px;
+
+	}
+.picture {
+  text-align: center;
+}
+.pic{
+	margin: 0 auto;
+}
